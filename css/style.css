@@ -202,6 +202,9 @@ position:relative;
 						z-index: 2;
 						left:0;
 						}
+			.menu_trigger{
+			display:none;
+			}
 /*--------------------main---------------*/
 #main{
 position:relative;
@@ -211,9 +214,13 @@ overflow:hidden;
 	margin:6px 0 0 0;
 	height: 553px;
 	position:relative;
+	padding:0;
 	z-index:1;
 	background-color: #75160d;
 	}
+		.slider_wrap ul, .slider_wrap ul li{
+		height: 553px;
+		}
 		.slider_img{
 		position:absolute;
 		right:0;
@@ -314,13 +321,20 @@ overflow:hidden;
 	}
 		.category_block{
 		margin-bottom:27px;
+		font-size:0;
+		overflow:hidden;
+		}
+		.category_box{
+		display:inline-block;
+		width: 378px;
+		height: 231px;
+		margin:1px;
 		}
 			.category_item{
 			position:relative;
 			overflow:hidden;
-			width: 391px;
+			width: 378px;
 			height: 231px;
-			margin:1px;
 			}
 				.category_item span{
 				position:absolute;
@@ -372,7 +386,7 @@ overflow:hidden;
 			border-radius:50%;
 			background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.11) 0%, rgba(240, 234, 226, 0.41) 100%);
 			background-image: linear-gradient(to top, rgba(255, 255, 255, 0.11) 0%, rgba(240, 234, 226, 0.41) 100%);
-			box-shadow: 0 10px 43px rgba(92, 205, 209, 0.5);
+			box-shadow: 0 10px 43px #791510;
 			}
 				.benefits_item figure span{
 				width: 179px;

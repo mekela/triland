@@ -1,3 +1,175 @@
-@media screen and (max-width: 1170px) {
-  
+@media screen and (max-width: 1600px) {
+	.slider_img{
+		width:580px;
+		overflow:hidden;
+	}
 }
+@media screen and (max-width: 1170px) {
+	#wrapper .container{
+	width:880px;
+	}
+		.slider_img{
+		width:520px;
+		overflow:hidden;
+		}
+		.category_block{
+		text-align:center;
+		}
+		.subscribe_text{
+		font-size:13px;
+		}
+		.subscribe_form input[type=text]{
+		width:270px;
+		}
+		.news_item{
+		padding-bottom:25px;
+		}
+			.foot_contacts span{
+			display:block;
+			}
+				.foot_contacts b{
+				font-size:17px;
+				}
+}
+@media screen and (max-width: 900px) {
+	#wrapper .container{
+	width:688px;
+	}
+		.head_top{
+		display:none;
+		}
+		.logo_wrap{
+		margin-top:0;
+		padding-top:16px;
+		padding-left:0;
+		padding-right:0;
+		background-image: -webkit-linear-gradient(bottom, white 0%, #efe8e4 100%);
+		background-image: linear-gradient(to top, white 0%, #efe8e4 100%);
+		}
+	
+	.head_nav{
+	background:#a41608;
+	margin-top:25px;
+	}
+		.main_menu{
+		padding-top:0;
+		border:none;
+		}
+			.main_menu ul{
+			display:none;
+			}
+				.main_menu ul li{
+				display:block;
+				width:100%;
+				border-top:1px solid #b25047;
+				}
+					.main_menu ul li a{
+					color:#fbf9f8;
+					font-size:20px;
+					text-transform:uppercase;
+					font-family:'Scada';
+					}
+						.main_menu ul li a:before{
+						display:none;
+						}
+		.menu_trigger{
+		text-align:center;
+		color:#fbf9f8;
+		font-size:20px;
+		text-transform:uppercase;
+		font-family:'Scada';
+		padding:16px 0;
+		display:block;
+		}
+			.menu_trigger img{
+			padding:0 8px 0 0;
+			}
+	.slider_img{
+	width:400px;
+	}
+		.slider_text{
+		width:310px;
+		}
+			.slider_text p{
+			width:auto;
+			}
+	.category_box{
+	width:49.5%;
+	margin:0.2.5%;
+	height:auto;
+	}
+		.category_item{
+		height:auto;
+		width:auto;
+		}
+			.category_item img{
+			width:100%;
+			}
+	.subscribe_text{
+	font-size:16px;
+	}
+		.foot_contacts strong{
+		display:block;
+		padding-left:20px;
+		}
+	footer .main_menu{
+	display:none;
+	}
+	.foot_bottom{
+	padding-top:18px;
+	}
+	.slider_wrap{
+	margin-top:0;
+	}
+	
+	
+}
+
+@media screen and (max-width: 767px) {
+	#wrapper .container{
+	width:auto;
+	}
+		.slogan{
+		position:static;
+		display:inline-block;
+		margin:17px 0 0 0;
+		}
+		.slider_img{
+		display:none;
+		}
+		.slider_text{
+		margin:0 auto;
+		width:auto;
+		max-width: 320px;
+		text-align:center;
+		}
+			.category_box{
+			width:100%;
+			}
+		.benefits_wrap{
+		height:auto;
+		padding-bottom:50px;
+		background:url(../img/bg_benefits.jpg) repeat center;
+		}
+		.subscribe_text{
+		line-height:1.5;
+		padding-bottom:11px;
+		}
+			.subscribe_wrap input.btn{
+			display:block;
+			margin:11px auto;
+			margin-bottom:0;
+			}
+		.foot_contacts a{
+		text-transform:none;
+		}
+		.develop{
+		margin: 18px auto;
+		margin-bottom:0;
+		width: 174px;
+		}
+		footer .social_links{
+		padding-bottom:11px;
+		}
+}
+
