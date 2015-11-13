@@ -51,21 +51,27 @@
 	background:#a41608;
 	margin-top:25px;
 	}
+		.head_nav .container{
+		width:auto;
+		padding:0;
+		}
 		.main_menu{
 		padding-top:0;
 		border:none;
 		}
-			.main_menu ul{
+			.main_menu .menu{
 			display:none;
 			}
 				.main_menu ul li{
 				display:block;
 				width:100%;
-				border-top:1px solid #b25047;
+				background:#ad1709;
+				border-top:1px solid #b9422a;
 				}
 					.main_menu ul li a{
 					color:#fbf9f8;
 					font-size:20px;
+					height:45px;
 					text-transform:uppercase;
 					font-family:'Scada';
 					}
@@ -84,6 +90,64 @@
 			.menu_trigger img{
 			padding:0 8px 0 0;
 			}
+		.search_nav{
+		background:#ad1709;
+		border-top:1px solid #b9422a;
+		display:block;
+		font-size:0;
+		height:43px;
+		}
+			.search{
+			height:43px;
+			width:322px;
+			display:inline-block;
+			position:relative;
+			vertical-align:top;
+			}
+				.search input[type=text]{
+				height:43px;
+				background:#fff;
+				border:none;
+				font-family:'Roboto';
+				font-size:15px;
+				color:#a59d9a;
+				text-transform:uppercase;
+				text-indent:13px;
+				width:322px;
+				}
+				.search input[type=submit]{
+				background:url(../img/search.png) no-repeat;
+				width:20px;
+				height:20px;
+				position:absolute;
+				right:10px;
+				top:10px;
+				border:none;
+				cursor:pointer;
+				z-index:2;
+				}
+			.search_nav nav{
+			display:inline-block;
+			vertical-align:top;
+			font-size:0;
+			}
+				.search_nav nav a{
+				width:42px;
+				height:43px;
+				border-left:1px solid #ad1709;
+				background:#bf1808;
+				display:inline-block;
+				vertical-align:top;
+				line-height:43px;
+				font-size:14px;
+				text-transform:uppercase;
+				color:#eeaa87;
+				}
+				.search_nav nav a.active, .search_nav nav a:hover{
+				color:#fff;
+				background:#cd1807;
+				text-decoration:none;
+				}
 	.slider_img{
 	width:400px;
 	}
@@ -122,7 +186,6 @@
 	margin-top:0;
 	}
 	
-	
 }
 
 @media screen and (max-width: 767px) {
@@ -156,9 +219,10 @@
 		padding-bottom:11px;
 		}
 			.subscribe_wrap input.btn{
-			display:block;
-			margin:11px auto;
 			margin-bottom:0;
+			}
+			.subscribe_form input[type=text]{
+			width:139px;
 			}
 		.foot_contacts a{
 		text-transform:none;
@@ -171,5 +235,11 @@
 		footer .social_links{
 		padding-bottom:11px;
 		}
+			.search, .search input[type=text]{
+			width:150px;
+			}
+	.benefits_item{
+	margin-bottom:40px;
+	}
 }
 

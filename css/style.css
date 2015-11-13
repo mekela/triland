@@ -202,7 +202,7 @@ position:relative;
 						z-index: 2;
 						left:0;
 						}
-			.menu_trigger{
+			.menu_trigger, .search_nav{
 			display:none;
 			}
 /*--------------------main---------------*/
@@ -540,6 +540,5 @@ font-family: Roboto;
 font-size: 13px;
 font-weight: 400;
 line-height: 13px;
-background-image: -webkit-linear-gradient(bottom, #f7f3f1 0%, #f2ece9 100%);
-background-image: linear-gradient(to top, #f7f3f1 0%, #f2ece9 100%);
+background:#f2ece9;
 }
