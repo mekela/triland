@@ -13,6 +13,6 @@ $(function(){
 	$('.slider_wrap ul').bxSlider({
 	  adaptiveHeight: true,
 	  auto: true,
-	  pager: false
+	  pagerCustom: '#bx-pager'
 	});
 });

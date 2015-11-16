@@ -41,6 +41,11 @@ text-align:center;
 /*------------------header---------------*/
 header{
 position:relative;
+background:red;
+background: #efe8e4;
+background: -moz-linear-gradient(top,  #efe8e4 17%, #ffffff 100%);
+background: -webkit-linear-gradient(top,  #efe8e4 17%,#ffffff 100%);
+background: linear-gradient(to bottom,  #efe8e4 17%,#ffffff 100%);
 }
 	.head_top{
 	-moz-box-sizing:border-box;
@@ -101,6 +106,9 @@ position:relative;
 					color: #bca699;
 					padding:0 6px;
 					}
+					.lang_list li a:hover{
+					color: #c5413f;
+					}
 		.social_links{
 		float:right;
 		font-size:0;
@@ -151,6 +159,9 @@ position:relative;
 			right: -151px;
 			line-height: 22px;
 			}
+				.slogan strong{
+				font-weight:300;
+				}
 	.main_menu{
 	position:relative;
 	padding:30px 0 0 0;
@@ -218,6 +229,24 @@ overflow:hidden;
 	z-index:1;
 	background-color: #75160d;
 	}
+		.slider_pager{
+		position:relative;
+		overflow:hidden;
+		text-align:center;
+		}
+			.slider_pager a{
+			display:inline-block;
+			width:13px;
+			height:15px;
+			text-decoration:none;
+			font-size:0;
+			text-indent:-1000px;
+			margin:0 6px;
+			background:url(../img/slider_item.png) no-repeat top right;
+			}
+				.slider_pager a.active{
+				background-position:0 0;
+				}
 		.slider_wrap ul, .slider_wrap ul li{
 		height: 553px;
 		}
@@ -301,8 +330,7 @@ overflow:hidden;
 			}
 			.about_wrap .title{
 			font-size:30px;
-			padding-top:47px;
-			background:url(../img/title_item.png) no-repeat top center;
+			padding-top:34px;
 			}
 			.about_wrap p{
 			text-align:center;
@@ -496,6 +524,12 @@ background-image: linear-gradient(to top, white 0%, #efe8e4 100%);
 		position:relative;
 		bottom:4px;
 		}
+			.foot_bottom  .social_links .social_item{
+			opacity:0.6;
+			}
+			.foot_bottom  .social_links .social_item:hover{
+			opacity:1;
+			}
 		.foot_contacts{
 		text-align:center;
 		line-height:25px;
@@ -515,6 +549,7 @@ background-image: linear-gradient(to top, white 0%, #efe8e4 100%);
 			color: #991711;
 			font-size: 16px;
 			font-weight: 700;
+			text-transform:none;
 			text-decoration: underline;
 			}
 		.develop {
@@ -526,6 +561,8 @@ background-image: linear-gradient(to top, white 0%, #efe8e4 100%);
 		line-height: 13px;
 		color: #747172;
 		display:block;
+		text-decoration:none;
+		min-width:175px;
 		}
 			.develop span{
 			color: #991711;
