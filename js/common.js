@@ -1,4 +1,13 @@
 $(function(){
+	//fancybox
+	$('.fancybox').fancybox({
+		helpers: {
+			overlay: {
+				locked: false
+			}
+		}
+	});
+	
 	//lang block
 	$( ".lang_selected" ).click(function() {
 	  $( ".lang_list" ).slideToggle( "slow" );
