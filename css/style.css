@@ -712,3 +712,38 @@ position:relative;
 			line-height:36px;
 			display:block;
 			}
+/*----------modal----------*/
+.modal{
+display:none;
+}
+.gallery_modal{
+width:1026px;
+border-radius:40px;
+overflow:hidden;
+position:relative;
+background:#fff;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+padding: 30px;
+}
+	.gallery_modal figure{
+	text-align:center;
+	display:inline-block;
+	}
+		.gallery_modal figure img{
+		border:1px solid #ece2e2;
+		}
+		.gallery_modal h6{
+		padding:25px 0 13px 0;
+		font-size:24px;
+		color:#991711;
+		font-weight:bold;
+		font-family: 'PT Serif';
+		text-transform:uppercase;
+		}
+		.gallery_modal p{
+		font-family: 'Scada';
+		line-height:24px;
+		color:#878383;
+		font-size:20px;
+		}

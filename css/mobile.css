@@ -30,6 +30,19 @@
 				.foot_contacts b{
 				font-size:17px;
 				}
+	.gallery_modal{
+	width:auto;
+	}
+		.gallery_modal figure img{
+		width:80%;
+		}
+	.gallery_block a{
+	width:100%;
+	height:auto;
+	}
+		.gallery_block a img{
+		width:100%;
+		}
 }
 @media screen and (max-width: 900px) {
 	#wrapper .container{
@@ -185,7 +198,12 @@
 	.slider_wrap{
 	margin-top:0;
 	}
-	
+	.categories_items {
+	text-align:center;
+	}
+		.categories_items a{
+		width:33%;
+		}
 }
 
 @media screen and (max-width: 767px) {
@@ -240,6 +258,14 @@
 			}
 	.benefits_item{
 	margin-bottom:40px;
+	}
+	.categories_items a{
+	width:50%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.categories_items a{
+	width:100%;
 	}
 }
 
