@@ -1,11 +1,9 @@
 $(function(){
 	//fancybox
 	$('.fancybox').fancybox({
-		helpers: {
-			overlay: {
-				locked: false
-			}
-		}
+		prevEffect		: 'fade',
+		nextEffect		: 'fade',
+		
 	});
 	
 	//lang block
