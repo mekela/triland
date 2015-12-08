@@ -719,17 +719,17 @@ position:relative;
 background:#fff;
 -moz-box-sizing:border-box;
 box-sizing:border-box;
-padding: 30px;
+padding: 0px;
 }
 	.gallery_modal figure{
 	text-align:center;
-	display:inline-block;
+	display:block;
 	}
 		.gallery_modal figure img{
-		border:1px solid #ece2e2;
+		width: 100%;
 		}
 		.gallery_modal h6{
-		padding:25px 0 13px 0;
+		padding:25px 30px 13px 30px;
 		font-size:24px;
 		color:#991711;
 		font-weight:bold;
@@ -741,4 +741,6 @@ padding: 30px;
 		line-height:24px;
 		color:#878383;
 		font-size:20px;
+		padding: 0 30px;
+		padding-bottom: 30px;
 		}
