@@ -4,7 +4,27 @@
 		overflow:hidden;
 	}
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) { 
+	.gallery_modal figure img{
+		width:600px;
+		overflow:hidden;
+		margin: 0 auto;
+		display: block;
+	}
+	.gallery_modal figure{
+		width: 100%;
+		display: block;
+	}
+}
+
 @media screen and (max-width: 1170px) {
+	.gallery_modal figure img{
+		width:400px;
+		overflow:hidden;
+		margin: 0 auto;
+		display: block;
+	}
 	#wrapper .container{
 	width:880px;
 	}
@@ -204,6 +224,13 @@
 		.categories_items a{
 		width:33%;
 		}
+
+	.fancybox-prev {
+		left: -10px;
+	}
+	.fancybox-next {
+		right: -10px;
+	}
 }
 
 @media screen and (max-width: 767px) {
